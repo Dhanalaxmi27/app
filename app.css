@@ -1,0 +1,59 @@
+.App {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('https://img.freepik.com/free-photo/nature-beauty-reflected-tranquil-mountain-lake-generative-ai_188544-12625.jpg');
+    background-size: 100%;
+    width: 100vh;
+    height: auto;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 42px;
+    font-style: 'Roboto';
+    font-weight: 400;
+  }
+  
+  form {
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  input[type='text'] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .error {
+    color: red;
+  }
+  
